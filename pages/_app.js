@@ -10,7 +10,10 @@ const GlobalStyle = createGlobalStyle`
   
   body {
     font-family: sans-serif;
-    background-color: #D9E6F6;
+    background-image: url("https://woomagazine.com.br/wp-content/uploads/2021/07/Aurora-1.jpg");
+    background-position: fixed;
+    background-repeat: repeat-y;
+    background-size: 100%;
   }
 
   #__next {

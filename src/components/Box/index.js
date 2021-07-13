@@ -23,11 +23,24 @@ const Box = styled.div`
     margin-bottom: 20px;
   }
   .smallTitle {
+    position:relative;
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: 700;
     color: #333333;
     margin-bottom: 20px;
+  }
+  .numberOfProfile, .smallTitle {
+    display:inline-block;
+  }
+  .numberOfProfile {
+    text-align: right;
+    color: #2E7BB4
+  }
+  .seeAll {
+    color: #2E7BB4;
+    font-weight: 700;
+    text-decoration: none;
   }
   hr {
     margin-top: 12px;
